@@ -1,0 +1,23 @@
+---
+title: "NBA Game Predictor"
+author: "Andy Smith"
+date: "30 September 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+This project looks to predict the outcome of NBA games using historical box score data, by:
+
+1. Scrapping game data from basketball reference back to 2010
+2. Cleaning and enriching the data into a workable format
+
+Let the games begin
+
+```{r cars}
+summary(cars)
+```
